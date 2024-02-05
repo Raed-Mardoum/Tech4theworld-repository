@@ -3,8 +3,8 @@ import './slideshow.css';
 
 const Slideshow = () => {
   return (
-    <div>
-        Slideshow
+    <div className='slideshow'>
+        <img />
     </div>
   )
 }

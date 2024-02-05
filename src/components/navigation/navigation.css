@@ -1,0 +1,35 @@
+.nav-link {
+    text-decoration: none;
+    text-align: center;
+
+    font-family: sans-serif;
+    font-size: large;
+
+    padding: 21px 30px;
+    margin: auto;
+}
+
+.ver-div-nav {
+    width: 2px;
+    height: 85%;
+
+    margin: auto;
+
+    background-color: grey;
+}
+
+.nav-link:active, .nav-link:visited, .nav-link:hover, .nav-link:link {
+    color: white;
+}
+
+.nav-container {
+    border-bottom: 1px solid grey;
+
+    display: flex;
+    justify-content: space-between;
+
+    width: auto;
+    height: 70px;
+
+    padding: 0px 30px;
+}
