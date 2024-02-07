@@ -1,10 +1,18 @@
 import React from 'react';
 import './content.css';
 
-const Content = () => {
+const Content = (props) => {
   return (
     <div className='content'>
-        <h1>{header}</h1>
+      <div className="context">
+
+        <h1>{props.header}</h1>
+
+        <p>{props.text}</p>
+
+      </div>
+
+      <img src={props.link}/>
     </div>
   )
 }
