@@ -3,8 +3,8 @@ import './content.css';
 
 const Content = () => {
   return (
-    <div>
-        Content
+    <div className='content'>
+        <h1>{header}</h1>
     </div>
   )
 }
