@@ -8,7 +8,9 @@ const Content = (props) => {
 
         <h1>{props.header}</h1>
 
-        <p>{props.text}</p>
+        <p className='text'>{props.text1}</p>
+        <p className='text'>{props.text2}</p>
+        <p className='text'>{props.text3}</p>
 
       </div>
 

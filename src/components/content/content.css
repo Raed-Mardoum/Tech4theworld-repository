@@ -28,3 +28,12 @@
 
     object-fit: cover;
 }
+
+.text {
+    font-size: large;
+    margin: 30px 0px;
+}
+
+.text:first-of-type {
+    margin-top: 150px;
+}
