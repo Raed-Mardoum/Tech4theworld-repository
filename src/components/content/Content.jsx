@@ -14,7 +14,7 @@ const Content = (props) => {
 
       </div>
 
-      <img className='content-img-left' src={props.link}/>
+      <img className='content-img' src={props.link}/>
     </div>
   )
 }

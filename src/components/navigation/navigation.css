@@ -19,12 +19,9 @@
 }
 
 .nav-link:active, .nav-link:visited, .nav-link:hover, .nav-link:link {
-    color: transparent;
+    color: white;
     font-size: 25px;
     font-weight: bold;
-
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
 }
 
 .nav-container {
@@ -32,11 +29,32 @@
     display: flex;
     justify-content: space-between;
 
-    width: auto;
+    width: 96.05%;
     height: 70px;
+
+    position: absolute;
+    z-index: 2;
+    top: 0%;
+    left: 0%;
+
+    animation: slideshow-opacity 3s infinite;
 
     padding: 0px 30px;
 
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(36, 36, 36, 1) 100%);
     
+}
+
+@keyframes slideshow-opacity {
+    0% {opacity: 0.9;}
+    10% {opacity: 0.88;}
+    20% {opacity: 0.86;}
+    30% {opacity: 0.84;}
+    40% {opacity: 0.82;}
+    50% {opacity: 0.8;}
+    60% {opacity: 0.82;}
+    70% {opacity: 0.84;}
+    80% {opacity: 0.86;}
+    90% {opacity: 0.88;}
+    100% {opacity: 0.9;}
 }
