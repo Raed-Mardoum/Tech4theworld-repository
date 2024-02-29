@@ -12,6 +12,13 @@ const Content = (props) => {
         <p className='text'>{props.text2}</p>
         <p className='text'>{props.text3}</p>
 
+        <ul className="content-list" style={{display: props.hide_list}}>
+          <li>{props.contentbullet1}</li>
+          <li>{props.contentbullet2}</li>
+          <li>{props.contentbullet3}</li>
+          <li>{props.contentbullet4}</li>
+        </ul>
+
       </div>
 
       <img className='content-img' src={props.link}/>
