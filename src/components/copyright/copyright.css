@@ -1,0 +1,61 @@
+.copyright-container {
+    width: 100%;
+    height: 120px;
+
+    display: flex;
+
+    align-items: center;
+
+    background-color: rgb(25, 25, 25);
+}
+
+.copyright-title {
+    color: white;
+
+    font-family: sans-serif;
+    font-size: 50px;
+
+    margin: auto 0px auto 30px;
+}
+
+.copyright-globe {
+    width: 70px;
+    height: 70px;
+
+    margin: auto 0px auto 20px;
+}
+
+.copyright-vertical-div {
+    background-color: white;
+
+    height: 90%;
+    width: 2px;
+
+    margin: auto 0px auto 20%;
+}
+
+.copyright-info {
+    display: flex;
+    justify-content: space-between;
+
+    width: 30%;
+
+    margin: auto;
+}
+
+.fa {
+    scale: 2;
+    color: white;
+}
+
+.copyright-icon-label {
+    color: white;
+    font-family: sans-serif;
+}
+
+.copyright-icon-box{
+    border: 1px solid red;
+
+    display: flex;
+    justify-content: center;
+}
