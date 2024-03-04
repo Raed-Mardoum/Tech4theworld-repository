@@ -8,7 +8,7 @@ const Content = (props) => {
 
         <h1>{props.header}</h1>
 
-        <p className='text'>{props.text1}</p>
+        <p className='text' style={{margin: props.content_text_reposition}}>{props.text1}</p>
         <p className='text'>{props.text2}</p>
         <p className='text'>{props.text3}</p>
 
@@ -16,7 +16,7 @@ const Content = (props) => {
           <li>{props.contentbullet1}</li>
           <li>{props.contentbullet2}</li>
           <li>{props.contentbullet3}</li>
-          <li>{props.contentbullet4}</li>
+          <li style={{display: props.contentbullet4_hidden}}>{props.contentbullet4}</li>
         </ul>
 
       </div>
