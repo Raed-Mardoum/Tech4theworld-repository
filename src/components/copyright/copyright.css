@@ -35,27 +35,29 @@
 }
 
 .copyright-info {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 
     width: 30%;
+
+    margin: 35px auto auto auto;
+}
+
+.fa {
+    color: white;
+
+    scale: 2;
 
     margin: auto;
 }
 
-.fa {
-    scale: 2;
-    color: white;
-}
-
 .copyright-icon-label {
     color: white;
+
     font-family: sans-serif;
-}
+    font-weight: bold;
 
-.copyright-icon-box{
-    border: 1px solid red;
+    margin: 20px auto;
 
-    display: flex;
-    justify-content: center;
+    text-align: right;
 }

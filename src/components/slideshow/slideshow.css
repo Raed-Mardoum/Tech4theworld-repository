@@ -15,7 +15,7 @@
 .slider figure img {
     float: left;
     width: 20%;
-    height: 700px;
+    height: 100vh;
     
     object-fit: cover;
 }

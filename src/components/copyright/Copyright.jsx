@@ -11,26 +11,23 @@ const Copyright = () => {
 
         <div className='copyright-info'>
 
-          <div className='copyright-icon-box'>
-            <i class="fa fa-facebook-official" aria-hidden="true"></i>
-            <p className='copyright-icon-label'>Facebook</p>
-          </div>
-
-          <div className='copyright-icon-box'>
-            <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            <p className='copyright-icon-label'>Twitter</p>
-          </div>
-
-          <div className='copyright-icon-box'>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <p className='copyright-icon-label'>Instagram</p>
-          </div>
-
-          <div className='copyright-icon-box'>
-            <i class="fa fa-youtube-play" aria-hidden="true"></i>
-            <p className='copyright-icon-label'>Youtube</p>
-          </div>
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
           
+          <i class="fa fa-twitter-square" aria-hidden="true"></i>
+          
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          
+          <i class="fa fa-youtube-play" aria-hidden="true"></i>
+
+
+          <p className='copyright-icon-label'>Facebook</p>
+
+          <p className='copyright-icon-label'>Twitter</p>          
+          
+          <p className='copyright-icon-label'>Instagram</p>          
+          
+          <p className='copyright-icon-label'>Youtube</p>          
+        
         </div>
   
     </div>
