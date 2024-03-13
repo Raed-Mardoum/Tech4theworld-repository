@@ -1,10 +1,12 @@
 import React from 'react';
 import './donationtab.css';
 
-const Donationtab = () => {
+const Donationtab = (props) => {
   return (
-    <div>
-        Donationtab
+    <div className='donate_element'>
+        <img src={props.cover} />
+        <h2>{props.donate_description}</h2>
+        <p>Goal completion: {props.donate_value}</p>
     </div>
   )
 }

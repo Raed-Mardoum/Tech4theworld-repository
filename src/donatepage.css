@@ -1,0 +1,11 @@
+.donate-container {
+    width: 98%;
+    height: 100vh;
+
+    background-color: gray;
+
+    margin: 90px auto 30px auto;
+
+    position: relative;
+    z-index: 2;
+}
