@@ -7,6 +7,13 @@ const Donate = () => {
   return (
     <div>
         <Navigation />
+
+        <div className='space'></div>
+
+        <Content header="Instructions:" contentbullet1="" contentbullet2="" contentbullet3="" link="https://www.am-cbr.net/wp-content/uploads/2022/10/black-delivery-man-holding-pizza-boxes-using-smart-W8AC8MN.png" />
+
+        <button className='donate-button-initiative'>Create initiative</button>
+
         <div className='donate-container'>
           <Donationtab cover="https://media.wired.com/photos/64daad6b4a854832b16fd3bc/191:100/w_1280,c_limit/How-to-Choose-a-Laptop-August-2023-Gear.jpg" donate_description="Laptops for students" donate_value="60%" />
           <Donationtab cover="https://dubailocal.ae/assets/more_images/1697602137_b36530d7a2225adc53b6.jpg" donate_description="Reclycling old devices" donate_value="30%" />
@@ -23,7 +30,9 @@ const Donate = () => {
           <Donationtab cover="https://s44650.pcdn.co/wp-content/uploads/2023/07/malawi-1200-1621575122-1024x683.jpg" donate_description="Recruiting people to deliver donated devices" donate_value="40%" />
           <Donationtab cover="https://s44650.pcdn.co/wp-content/uploads/2023/07/malawi-1200-1621575122-1024x683.jpg" donate_description="Recruiting people to deliver donated devices" donate_value="40%" />
         </div>
+
         <Copyright />
+
     </div>
   )
 }

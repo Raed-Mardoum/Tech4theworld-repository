@@ -4,8 +4,10 @@
 
     background-color: rgb(230, 230, 230);
 
-    border: 2px solid black;
+    border: 8px solid transparent;
     border-radius: 10px;
+
+    outline: 2.5px solid black;
 
     display: flex;
     flex-direction: column;
@@ -23,9 +25,15 @@
 }
 
 .donate_element h2 {
-    margin: -2px auto 0px auto;
+    margin: 8px auto 0px auto;
 }
 
 .donate_element:hover {
     scale: 1.2;
+}
+
+.donate_element h2, .donate_element p {
+    font-family: sans-serif;
+    margin-left: 7px;
+    margin-right: 7px;
 }
