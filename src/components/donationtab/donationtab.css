@@ -14,7 +14,7 @@
 
     margin: 25px auto 25px auto;
 
-    transition: scale 0.3s linear;
+    transition: scale 0.2s ease-in-out;
 }
 
 .donate_element img {

@@ -10,9 +10,15 @@ const Donate = () => {
 
         <div className='space'></div>
 
-        <Content header="Instructions:" contentbullet1="" contentbullet2="" contentbullet3="" link="https://www.am-cbr.net/wp-content/uploads/2022/10/black-delivery-man-holding-pizza-boxes-using-smart-W8AC8MN.png" />
+        <Content header="Instructions:" contentbullet1="Click on 'Create initiative'" contentbullet2="Fill the description form" contentbullet3="Wait for verification" contentbullet4="Contribute to thousands of initiatives" link="https://www.am-cbr.net/wp-content/uploads/2022/10/black-delivery-man-holding-pizza-boxes-using-smart-W8AC8MN.png" />
 
-        <button className='donate-button-initiative'>Create initiative</button>
+        <div className='initiative-header'>
+
+          <h1 className='initiative-title'>Initiatives:</h1>
+
+          <button className='donate-button-initiative'>Create initiative</button>
+        
+        </div>
 
         <div className='donate-container'>
           <Donationtab cover="https://media.wired.com/photos/64daad6b4a854832b16fd3bc/191:100/w_1280,c_limit/How-to-Choose-a-Laptop-August-2023-Gear.jpg" donate_description="Laptops for students" donate_value="60%" />

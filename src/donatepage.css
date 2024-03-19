@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(5, 20%);
 
-    margin: 90px auto 50px auto;
+    margin: 0px auto 50px auto;
 
     position: relative;
     z-index: 2;
@@ -34,10 +34,46 @@
     height: 50px;
 
     background-color: orange;
+    color: white;
 
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 27.5px;
 
     text-align: center;
+
+    border-radius: 30px;
+    border: 0px;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease-in-out;
+
+    margin: auto 0px;
+}
+
+.donate-button-initiative:hover {
+    background-color: rgb(222, 137, 0);
+}
+
+.donate-button-initiative:active {
+    background-color: rgb(186, 115, 0);
+}
+
+.initiative-title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+
+    color:rgb(234, 164, 0);
+}
+
+.initiative-header {
+    display: flex;
+    
+    justify-content: space-between;
+
+    margin-top: 90px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
