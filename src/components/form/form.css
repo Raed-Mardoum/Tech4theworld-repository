@@ -1,0 +1,8 @@
+.forum {
+    font-family: sans-serif;
+
+    width: calc(100% - 450px - 175px);
+    height: 305px;
+
+    background-color: grey;
+}

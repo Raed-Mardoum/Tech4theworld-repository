@@ -1,25 +1,71 @@
 .Contact-background {
     background-color: rgb(189, 189, 189);
 
-    width: 450px;
+    width: 90%;
     height: 300px;
 
-    padding-left: 175px;
-    padding-top: 5px;
-
-    margin-top: 100px;
+    margin: 110px auto auto auto;
+    padding-left: 30px;
+    padding-top: 1px;
 
     font-family: sans-serif;
 }
 
-.Contact-background h1 {
-    font-size: 50px;
+.Contact-background p {
+    margin-top: -15px;
+
+    font-size: 20px;
 }
 
 .Contact-background h3 {
     font-size: 25px;
+    
+    margin-top: 30px;
 }
 
-.Contact-background p {
-    margin-top: -20px;
+.Contact-background h3, .Contact-background p {
+    margin-left: 40px;
+}
+
+.contact-content {
+    display: flex;
+    gap: 80px;
+}
+
+.contact-content-div {
+    width: 40%;
+}
+
+.social {
+    width: 100%;
+    height: 30px;
+
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.social .fa {
+    scale: 3;
+}
+
+.social .fa:first-of-type {
+    margin-left: 100px;
+}
+
+.fa:nth-of-type(1) {
+    color: blue;
+}
+
+.fa:nth-of-type(2) {
+    color: rgb(0, 145, 255);
+}
+
+.fa:nth-of-type(3) {
+    color: black;
+}
+
+.fa:nth-of-type(4) {
+    color: red;
 }
