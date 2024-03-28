@@ -1,5 +1,7 @@
 .Contact-background {
-    background-color: rgb(189, 189, 189);
+    background: radial-gradient(circle at 0% 0%, rgba(255, 193, 0, 1) 0%, rgba(255, 91, 0, 1) 100%);
+
+    border: 3px solid white;
 
     width: 90%;
     height: 300px;
